@@ -1,0 +1,11 @@
+.red-text{
+  color: red;
+}
+
+#alone {
+  text-decoration: dashed;
+  color: aquamarine;
+}
+.red-text.blob {
+  font-size: 20px;
+}
