@@ -1,20 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    <title>Booki</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all">
+  <title>Booki</title>
+</head>
 
-  <body>
-    <div class="red-text blob">Hello World !</div>
-    <div class="red-text">N'importe quel texte</div>
-    <div id="alone" class="blob">Hello World !!</div>
-  </body>
+<body>
+  <header>
+    <div id="container1">
+      <img src="./images/logo/Booki.png" alt="logo">
+      <div class="links-container">
+        <a href="#hebergements" class="element1">Hébergement </a>
+        <a href="#activites" class="element2">Activités </a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <p>
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+    </p>
+    <p>En plein centre ville ou en pleine nature</p>
+    <form method="post" action="traitement.php">
+      <span><i class="fa-solid fa-location-dot"></i></span>
+      <input value="Marseille,France" type="search" name="Barre de recherche" id="recherche" />
+      <button type="submit" value="Rechercher">Rechercher</button>
+    </form>
+    <div id="Filtres">
+      <div class="économique"></div>
+      <div class="Familial"></div>
+      <div class="Romantique"></div>
+      <div class="Animaux autorisés"></div>
+    </div>
+    <div id="container2"> <span class="bold">Filtres</span>
+      <div class="filter" data-filter="économique"><img class="logo-billet" src="billet-logo.png" alt="logo billet"></img>économique</div>
+      <div class="filter" data-filter="Familial"><img class="logo-personne" src="personne-logo.png" alt="logo personne"></img>Familial</div>
+      <div class="filter" data-filter="Romantique"><img class="logo-coeur" src="coeur-logo.png" alt="logo coeur"></img>Romantique</div>
+      <div class="filter" data-filter="Animaux autorisés"><img class="logo-chien" src="chien-logo.png" alt="logo chien"></img>Animaux autorisés</div>
+    </div>
+    <p><img class="logo-info" src="info-logo.png" alt="logo info"></img>Plus de 500 logements sont disponibles dans
+      cette ville</p>
+  </section>
+
+  <section id="hebergements">
+    <p>
+    <h2>Hébergements à Marseille</h2>
+    <div><img class="hotel_cannebiere" src="hotel_cannebiere.jpg" alt="image auberge cannebière"></img></div>
+    <h3>Afficher plus</h3>
+    </p>
+  </section>
+
+  <nav>
+    <h2>Les plus populaires</h2>
+  </nav>
+
+  <section id="activites">
+    <h2>Activités à Marseille</h2>
+  </section>
+
+  <footer>
+    <p>
+    <h3>A propos</h3>
+    Fonctionnement du site</br>
+    Conditions générales de vente</br>
+    Données et confidentialité</br>
+    <h3>Nos hébergements</h3>
+    Charte qualité</br>
+    Soumettre votre hôtel</br>
+    <h3>Assistance</h3>
+    Centre d'aide</br>
+    Nous contacter
+    </p>
+  </footer>
+
+</body>
 
 </html>

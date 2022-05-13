@@ -1,11 +1,136 @@
-.red-text{
-  color: red;
+@font-face {
+  font-family: 'Raleway';
+  src: url('Raleway-VariableFont_wght.ttf');
 }
 
-#alone {
-  text-decoration: dashed;
-  color: aquamarine;
+head,
+body {
+  font-family: 'Raleway', 'Times New Roman', 'Georgia', 'Courier New', 'serif';
 }
-.red-text.blob {
-  font-size: 20px;
+
+.body {
+  margin: 0;
+}
+
+#container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+#container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  inline-size: 500px;
+}
+
+.container1 a {
+  padding: 50px 20px;
+}
+
+.element1 a:hover {
+  color: #0065FC;
+}
+
+.element2 a:hover {
+  color: #0065FC;
+}
+
+h1 {
+  font-size: 22px;
+  margin: .67em 0;
+}
+
+img {
+  width: 80px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.filter {
+  font-weight: bold;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 20px;
+  border-color: grey;
+}
+
+button[type=submit] {
+  margin-left: -5px;
+  color: white;
+  background-color: #0065FC;
+}
+
+form span {
+  background-color: #F2F2F2;
+  padding: 15px;
+}
+
+.logo-info {
+  width: 4px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  margin-right: 5px;
+  border-color: grey;
+}
+
+.logo-billet {
+  width: 20px;
+  display: inline-block;
+  flex-direction: row;
+  border: 1px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+  border-color: white;
+  background-color: #DEEBFF;
+}
+
+.logo-personne {
+  width: 20px;
+  display: inline-block;
+  border: 1px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+  border-color: white;
+  background-color: #DEEBFF;
+}
+
+.logo-coeur {
+  width: 20px;
+  display: inline-block;
+  border: 1px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+  border-color: white;
+  background-color: #DEEBFF;
+}
+
+.logo-chien {
+  width: 20px;
+  display: inline-block;
+  border: 1px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: -10px;
+  margin-right: 10px;
+  border-color: white;
+  background-color: #DEEBFF;
+}
+
+#hebergements {
+  display:
 }
